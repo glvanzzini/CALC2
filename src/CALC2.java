@@ -99,7 +99,6 @@ public class CALC2 {
         //String sqrtGone = moreStr.replaceAll(" 1 ", "1.0");
         //String parsed = sqrtGone.replaceAll("& 1.0 ", "1.0");
         //String finalParse = RemoveSqrt(parsed);
-        //eval doThis = new eval();
         //System.out.print(doThis.performMath(finalParse));
         if(lstVars.containsKey(firstCommand)){ //if the variable exists, do the math.
             lstVars.put(firstCommand, performMath(moreStr));
